@@ -12,23 +12,22 @@
 
 .container {
     width: 95vw;
-    height: 130vh;
-    margin: 10px auto;
-    border: solid black;
+    height: 95vh;
+    margin: auto;
+    border: solid red;
     position: relative;
 }
 
 header {
     width: :100%;
-    height: 25%;
-    overflow: hidden;
+    height: 20%;
     border: solid black;
     position: relative;
 }
 
 .titolo {
     width: 90%;
-    height: calc(100% - 70px);
+    height: calc(100% - 60px);
     margin: 10px auto;
     border: solid black;
     background-color: blue;
@@ -36,25 +35,25 @@ header {
 
 .menu {
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: orange;
     position:absolute;
     bottom: 0;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     border: solid black;
 }
 
 li {
     display:inline;
-    padding: 10px 25px;
+    padding: 8px 25px;
     border: solid black;
     margin: 0 25px;
 }
 
-.blocco {
+.blocco-centrale {
     width: 100%;
-    height: 75%;
+    height: 70%;
     margin: 20px 0;
 }
 
@@ -83,7 +82,16 @@ main {
     width: 20%;
     height: 30%;
     border: solid black;
-    background-color: yellow;
+    background-color: purple;
+
+}
+.latdx2 {
+    margin: 10px 0 0 5%;
+    float:right;
+    width: 20%;
+    height: 20%;
+    border: solid black;
+    background-color: pink;
 
 }
 
@@ -92,11 +100,11 @@ main {
 
 
 
-/* footer {
-    position: absolute;
-    bottom 0;
+  footer {
     width: 100%;
-    height: 15%;
+    height:10%;
     border: solid black;
     background-color: green;
-} */
+    position:absolute;
+    bottom:0;
+}

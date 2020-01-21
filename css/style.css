@@ -28,6 +28,11 @@ header {
     height: 250px;
     background-color: blue;
 }
+
+.img-titolo {
+    object-fit: contain;
+}
+
 nav {
     height: 50px;
     line-height: 50px;
@@ -38,4 +43,31 @@ nav {
 li {
     display: inline;
     margin: auto 20px;
+}
+
+/*FINE CSS HEADER */
+
+.blocco-centrale {
+    margin-top: 10px;
+    background-color:grey;
+    height: 800px;
+}
+
+.laterale {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: green;
+}
+
+main {
+    width: 60%;
+    height:100%;
+    float:left;
+    padding-left: 20px;
+}
+
+.contenuto {
+    height:100%;
+    background-color: red;
 }

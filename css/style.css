@@ -4,78 +4,115 @@
     box-sizing: border-box;
 }
 
-.clearfix::after {
+.clearfix:after {
     content: "";
     display:table;
     clear:both;
 }
 
 body {
-        background-image: url();
-}
-
-.container {
-    width: 60vw;
-    margin: 0 auto;
+    width: 95vw;
+    height: 97vh;
+    margin: auto;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsf.co.ua%2F13%2F07%2Fwallpaper-2940906.jpg&f=1&nofb=1);
 }
 
 header {
-    height: 300px;
-    margin-top: 10px;
+    height: 25%;
 }
 
 .titolo {
-    height: 250px;
-    background-color: blue;
+    height: calc(100% - 60px);
+    margin: 10px auto;
+    border: solid black;
+    overflow: hidden;
 }
 
+.dentro-titolo {
+    padding 10px;
+    background-color: white;
+}
 .img-titolo {
     object-fit: contain;
+
 }
 
-nav {
-    height: 50px;
-    line-height: 50px;
+.menu {
+    height: 40px;
+    background-color: #ab7e35;
+    color: white;
     text-align: center;
-    background-color: orange;
+    line-height: 38px;
+    border: solid black;
 }
 
 li {
-    display: inline;
-    margin: auto 20px;
+    display:inline;
+    padding: 10px 25px;
+    border:  black;
+    margin: 0 25px;
+    border-right: solid black;
+    border-left: solid black;
 }
-
-/*FINE CSS HEADER */
 
 .blocco-centrale {
-    margin-top: 10px;
-    background-color:grey;
-    height: 600px;
-}
-
-.laterale {
-    float: left;
-    width: 20%;
-    height: 100%;
-    background-color: green;
+    height: 65%;
+    margin-top: 15px;
 }
 
 main {
-    width: 60%;
-    height:100%;
+    margin: 0 auto;
+    width: 50%;
+    height: 95%;
+    border: solid black;
     float:left;
-    padding: 0 20px;
+    background-color: #e5e5d8;
 }
 
-.contenuto {
-    height:100%;
-    background-color: red;
+.latsx {
+    margin: 0 5% 0 0;
+    float:left;
+    width: 20%;
+    height: 70%;
+    border: solid black;
+    background-color: #e5e5d8;
 }
 
-/* FINE CSS ASIDE-MAIN */
+.latdx {
+    overflow: auto;
+}
 
-footer {
-    margin-top:20px;
-    height: 100px;
-    background-color: yellow;
+.latdx1 {
+    margin: 0 0 0 5%;
+    float:right;
+    width: 20%;
+    height: 30%;
+    border: solid black;
+    background-color: #e5e5d8;
+}
+
+.latdx2 {
+    margin: 10px 0 0 5%;
+    float:right;
+    width: 20%;
+    height: 20%;
+    border: solid black;
+    background-color: #e5e5d8;
+}
+
+  footer {
+    height:8%;
+    background-image: url(..img/boschi.jpg);
+    margin-top:5px;
+    position:relative;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }

@@ -42,15 +42,17 @@ header {
     background-color: #ab7e35;
     color: white;
     text-align: center;
-    line-height: 40px;
+    line-height: 38px;
     border: solid black;
 }
 
 li {
     display:inline;
-    padding: 8px 25px;
-    border: solid black;
+    padding: 10px 25px;
+    border:  black;
     margin: 0 25px;
+    border-right: solid black;
+    border-left: solid black;
 }
 
 .blocco-centrale {

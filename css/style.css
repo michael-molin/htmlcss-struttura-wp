@@ -64,9 +64,9 @@ main {
     margin: 0 auto;
     width: 50%;
     height: 95%;
-    background-color: red;
     border: solid black;
     float:left;
+    background-color: #e5e5d8;
 }
 
 .latsx {
@@ -75,7 +75,7 @@ main {
     width: 20%;
     height: 70%;
     border: solid black;
-    background-color: yellow;
+    background-color: #e5e5d8;
 }
 
 .latdx {
@@ -88,7 +88,7 @@ main {
     width: 20%;
     height: 30%;
     border: solid black;
-    background-color: purple;
+    background-color: #e5e5d8;
 }
 
 .latdx2 {
@@ -97,12 +97,22 @@ main {
     width: 20%;
     height: 20%;
     border: solid black;
-    background-color: pink;
+    background-color: #e5e5d8;
 }
 
   footer {
     height:8%;
-    border: solid black;
-    background-color: green;
+    background-image: url(..img/boschi.jpg);
     margin-top:5px;
+    position:relative;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }

@@ -10,28 +10,37 @@
     clear:both;
 }
 
-.container {
+body {
     width: 95vw;
     height: 97vh;
     margin: auto;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsf.co.ua%2F13%2F07%2Fwallpaper-2940906.jpg&f=1&nofb=1);
 }
 
 header {
-    height: 20%;
+    height: 25%;
 }
 
 .titolo {
-    width: 90%;
     height: calc(100% - 60px);
     margin: 10px auto;
     border: solid black;
-    background-color: blue;
+    overflow: hidden;
+}
+
+.dentro-titolo {
+    padding 10px;
+    background-color: white;
+}
+.img-titolo {
+    object-fit: contain;
+
 }
 
 .menu {
     height: 40px;
-    background-color: orange;
-    margin-top: 10px;
+    background-color: #ab7e35;
+    color: white;
     text-align: center;
     line-height: 40px;
     border: solid black;
@@ -45,7 +54,7 @@ li {
 }
 
 .blocco-centrale {
-    height: 70%;
+    height: 65%;
     margin-top: 15px;
 }
 
